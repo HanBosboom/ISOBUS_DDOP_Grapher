@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISO11783_TaskData VersionMajor="3" VersionMinor="1" MangagementSoftwaremanufacturer=" " ManagementSoftwareVersion=" " TaskControllerManufacturer="Trimble" TaskControllerVersion="6.20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=" " DataTransferOrigin="2">
+<CTR A="CTR1" B="Test"/>
+<FRM A="FRM1" B="Nicht zugewiesen" I="CTR1"/>
+<PFD A="PFD1" C="Test" E="CTR1" F="FRM1"/>
+<TSK A="TSK1" B="Streuen" C="CTR1" D="FRM1" E="PFD1" G="2" H="0" I="0"/>
+<DVC A="DVC1" B="AMAZONE ZA-V " C="NW188-F.042" D="a00a80002b800000" E="ZA00025728" F="17000000107b00" G="ff000000006564">
+<DET A="DET1" B="1" C="1" D="Streuer" E="0" F="0">
+<DOR A="7007"/>
+<DOR A="7014"/>
+<DOR A="7084"/>
+<DOR A="7085"/>
+<DOR A="7078"/>
+</DET>
+<DET A="DET-1" B="2000" C="3" D="Behaelter" E="1" F="1000">
+<DOR A="7002"/>
+<DOR A="8004"/>
+<DOR A="8005"/>
+</DET>
+<DPT A="8004" B="008e" C="500" D="Sollwertverzoegerung" E="9007"/>
+<DPT A="8005" B="008f" C="200" D="Istwertverzoegerung" E="9007"/>
+<DET A="DET-2" B="1000" C="2" D="Streufaecher" E="2" F="1">
+<DOR A="7003"/>
+<DOR A="7004"/>
+<DOR A="7005"/>
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7013"/>
+<DOR A="7014"/>
+<DOR A="7017"/>
+<DOR A="7018"/>
+<DOR A="7054"/>
+<DOR A="7055"/>
+<DOR A="7056"/>
+<DOR A="7061"/>
+<DOR A="7079"/>
+<DOR A="7080"/>
+<DOR A="7081"/>
+<DOR A="7082"/>
+<DOR A="7086"/>
+<DOR A="7089"/>
+<DOR A="7090"/>
+<DOR A="7091"/>
+<DOR A="7097"/>
+<DOR A="7098"/>
+<DOR A="7019"/>
+<DOR A="7027"/>
+<DOR A="7035"/>
+<DOR A="7043"/>
+</DET>
+<DET A="DET-3" B="1001" C="2" D="Streufaecher links" E="21" F="1000">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7014"/>
+<DOR A="7057"/>
+<DOR A="7059"/>
+<DOR A="7062"/>
+<DOR A="7063"/>
+<DOR A="7066"/>
+<DOR A="7067"/>
+<DOR A="7070"/>
+<DOR A="7087"/>
+<DOR A="7095"/>
+</DET>
+<DET A="DET-4" B="1002" C="2" D="Streufaecher rechts" E="22" F="1000">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7014"/>
+<DOR A="7058"/>
+<DOR A="7060"/>
+<DOR A="7064"/>
+<DOR A="7065"/>
+<DOR A="7068"/>
+<DOR A="7069"/>
+<DOR A="7071"/>
+<DOR A="7088"/>
+<DOR A="7096"/>
+</DET>
+<DET A="DET-5" B="3000" C="4" D="Teilbreite_1" E="100" F="1001">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-6" B="3001" C="4" D="Teilbreite_2" E="101" F="1001">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-7" B="3002" C="4" D="Teilbreite_3" E="102" F="1001">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-8" B="3003" C="4" D="Teilbreite_4" E="103" F="1001">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-9" B="3004" C="4" D="Teilbreite_5" E="104" F="1001">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-10" B="3005" C="4" D="Teilbreite_6" E="105" F="1001">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-11" B="3006" C="4" D="Teilbreite_7" E="106" F="1001">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-12" B="3007" C="4" D="Teilbreite_8" E="107" F="1001">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-13" B="3500" C="4" D="Teilbreite_1" E="500" F="1002">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-14" B="3501" C="4" D="Teilbreite_2" E="501" F="1002">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-15" B="3502" C="4" D="Teilbreite_3" E="502" F="1002">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-16" B="3503" C="4" D="Teilbreite_4" E="503" F="1002">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-17" B="3504" C="4" D="Teilbreite_5" E="504" F="1002">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-18" B="3505" C="4" D="Teilbreite_6" E="505" F="1002">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-19" B="3506" C="4" D="Teilbreite_7" E="506" F="1002">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-20" B="3507" C="4" D="Teilbreite_8" E="507" F="1002">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-21" B="5000" C="6" D="Kupplungspunkt" E="3" F="1">
+<DOR A="7009"/>
+<DOR A="8001"/>
+<DOR A="8002"/>
+<DOR A="8003"/>
+</DET>
+<DPT A="8001" B="0087" C="0" D="Y Offset Kupplungspunkt " E="9004"/>
+<DPT A="8002" B="0088" C="0" D="Z Offset Kupplungspunkt " E="9004"/>
+<DPT A="8003" B="009d" C="3" D="Anhaengung" E="65535"/>
+<DPD A="7002" B="004b" C="1" D="5" E="aktueller Behaelterinhalt" F="9006"/>
+<DPD A="7003" B="0007" C="1" D="11" E="Istwert Ausbringmenge" F="9003"/>
+<DPD A="7004" B="0006" C="3" D="0" E="Sollwert Ausbringmenge" F="9003"/>
+<DPD A="7005" B="00a0" C="2" D="9" E="SectionControlState" F="65535"/>
+<DPD A="7007" B="dfff" C="0" D="31" E="DefaultLogging" F="65535"/>
+<DPD A="7009" B="0086" C="0" D="8" E="X Offset" F="9004"/>
+<DPD A="7010" B="0087" C="0" D="8" E="Y Offset" F="9004"/>
+<DPD A="7011" B="0043" C="0" D="8" E="Arbeitsbreite" F="9004"/>
+<DPD A="7013" B="009e" C="2" D="8" E="Prescription Control State" F="65535"/>
+<DPD A="7014" B="008d" C="1" D="9" E="Arbeitsstellung" F="65535"/>
+<DPD A="7016" B="00e2" C="0" D="8" E="Actual Working Length" F="9004"/>
+<DPD A="7017" B="00cd" C="2" D="9" E="SC Turn On Time" F="9007"/>
+<DPD A="7018" B="00ce" C="2" D="9" E="SC Turn Off Time" F="9007"/>
+<DPD A="7019" B="00a1" C="0" D="9" E="Condensed Work state 01 - 16" F="65535"/>
+<DPD A="7027" B="0122" C="2" D="0" E="Setpoint Condensed WS 01 - 16" F="65535"/>
+<DPD A="7035" B="e00d" C="2" D="0" E="SP Cond. Infield State 01 - 16" F="65535"/>
+<DPD A="7043" B="016f" C="0" D="9" E="Section Override State 1-16" F="65535"/>
+<DPD A="7054" B="0109" C="2" D="0" E="Restflaeche" F="9002"/>
+<DPD A="7055" B="0134" C="1" D="0" E="Istwert Ausbringm. in Prozent" F="9011"/>
+<DPD A="7056" B="008c" C="2" D="0" E="Sollwert Ausbringm. in Prozent" F="9011"/>
+<DPD A="7057" B="0186" C="1" D="1" E="Istwert Drehzahl links" F="9012"/>
+<DPD A="7058" B="0186" C="1" D="1" E="Istwert Drehzahl rechts" F="9012"/>
+<DPD A="7059" B="0185" C="0" D="8" E="Sollwert Drehzahl links" F="9012"/>
+<DPD A="7060" B="0185" C="0" D="8" E="Sollwert Drehzahl rechts" F="9012"/>
+<DPD A="7061" B="0046" C="0" D="9" E="Maximale Arbeitsbreite" F="9004"/>
+<DPD A="7062" B="0007" C="1" D="11" E="Istwert Ausbringmenge links" F="9003"/>
+<DPD A="7063" B="0006" C="2" D="0" E="Sollwert Ausbringmenge links" F="9003"/>
+<DPD A="7064" B="0007" C="1" D="11" E="Istwert Ausbringmenge rechts" F="9003"/>
+<DPD A="7065" B="0006" C="2" D="0" E="Sollwert Ausbringmenge rechts" F="9003"/>
+<DPD A="7066" B="0134" C="1" D="0" E="Istwert in Prozent links" F="9011"/>
+<DPD A="7067" B="008c" C="2" D="0" E="Sollwert in Prozent links" F="9011"/>
+<DPD A="7068" B="0134" C="1" D="0" E="Istwert in Prozent rechts" F="9011"/>
+<DPD A="7069" B="008c" C="2" D="0" E="Sollwert in Prozent rechts" F="9011"/>
+<DPD A="7070" B="0043" C="1" D="8" E="Arbeitsbreite links" F="9004"/>
+<DPD A="7071" B="0043" C="1" D="8" E="Arbeitsbreite rechts" F="9004"/>
+<DPD A="7078" B="00d7" C="1" D="17" E="Betriebsstunden" F="9014"/>
+<DPD A="7079" B="010f" C="1" D="17" E="Gesamtarbeitsfläche" F="9002"/>
+<DPD A="7080" B="010a" C="1" D="17" E="Menge gesamt" F="9001"/>
+<DPD A="7081" B="0110" C="1" D="19" E="Gesamtstrecke Streuscheibe An" F="9016"/>
+<DPD A="7082" B="0111" C="1" D="19" E="Gesamtstrecke Streuscheibe Aus" F="9016"/>
+<DPD A="7084" B="018d" C="1" D="9" E="Aktuelle Geschwindigkeit" F="9013"/>
+<DPD A="7085" B="0190" C="1" D="9" E="Geschwindigkeitsquelle" F="65535"/>
+<DPD A="7086" B="e290" C="1" D="9" E="Kalibrierfaktor" F="65535"/>
+<DPD A="7087" B="e291" C="1" D="9" E="Schieberposition links" F="9011"/>
+<DPD A="7088" B="e291" C="1" D="9" E="Schieberposition rechts" F="9011"/>
+<DPD A="7089" B="e292" C="1" D="9" E="Streuverfahren links" F="65535"/>
+<DPD A="7090" B="e293" C="3" D="9" E="Streuverfahren rechts" F="65535"/>
+<DPD A="7091" B="e294" C="1" D="9" E="Einleitsystemposition links" F="65535"/>
+<DPD A="7095" B="e295" C="1" D="9" E="Wurfweite links" F="65535"/>
+<DPD A="7096" B="e295" C="1" D="9" E="Wurfweite rechts" F="65535"/>
+<DPD A="7097" B="fe20" C="0" D="9" F="65535"/>
+<DPD A="7098" B="fe21" C="2" D="9" F="65535"/>
+<DVP A="9000" B="0" C="0.000001" D="2" E="km"/>
+<DVP A="9001" B="0" C="1.000000" D="0" E="kg"/>
+<DVP A="9002" B="0" C="0.000100" D="2" E="ha"/>
+<DVP A="9003" B="0" C="0.010000" D="0" E="kg/ha"/>
+<DVP A="9004" B="0" C="0.001000" D="2" E="m"/>
+<DVP A="9005" B="0" C="0.000278" D="1" E="h"/>
+<DVP A="9006" B="0" C="0.001000" D="0" E="kg"/>
+<DVP A="9007" B="0" C="1.000000" D="0" E="ms"/>
+<DVP A="9008" B="-273150" C="0.001000" D="1" E="°C"/>
+<DVP A="9009" B="0" C="0.001000" D="1" E="m/s"/>
+<DVP A="9010" B="0" C="1.000000" D="0" E="°"/>
+<DVP A="9011" B="0" C="0.000100" D="0" E="%"/>
+<DVP A="9012" B="0" C="0.000100" D="0" E="min-1"/>
+<DVP A="9013" B="0" C="0.003600" D="1" E="km/h"/>
+<DVP A="9014" B="0" C="0.050000" D="1" E="h"/>
+<DVP A="9015" B="0" C="0.001000" D="2" E="°"/>
+<DVP A="9016" B="0" C="0.001000" D="2" E="km"/>
+</DVC>
+<DVC A="DVC-106" B="6000RW" C="01.04" D="a00086000420741c" E="1L06155RKJR925255" F="01000000000000" G="fffe0000006e65">
+<DET A="DET-31" B="1" C="1" D="none" E="0" F="0">
+<DOR A="39"/>
+<DOR A="53"/>
+<DOR A="54"/>
+<DOR A="58"/>
+<DOR A="4"/>
+<DOR A="42"/>
+<DOR A="44"/>
+<DOR A="45"/>
+<DOR A="46"/>
+<DOR A="48"/>
+<DOR A="49"/>
+</DET>
+<DET A="DET-35" B="2" C="6" D="Front 3_POINT" E="1" F="1">
+<DOR A="6"/>
+<DOR A="7"/>
+<DOR A="8"/>
+<DOR A="51"/>
+</DET>
+<DET A="DET-39" B="3" C="6" D="Rear 3_POINT" E="2" F="1">
+<DOR A="9"/>
+<DOR A="10"/>
+<DOR A="11"/>
+<DOR A="50"/>
+</DET>
+<DET A="DET-42" B="5" C="7" D="GPS Receiver" E="4" F="1">
+<DOR A="12"/>
+<DOR A="13"/>
+<DOR A="14"/>
+</DET>
+<DET A="DET-43" B="28" C="2" D="Rear Wheels" E="6" F="1">
+<DOR A="30"/>
+</DET>
+<DET A="DET-47" B="47" C="6" D="Rear Drawbar" E="10" F="1">
+<DOR A="15"/>
+<DOR A="16"/>
+<DOR A="17"/>
+<DOR A="52"/>
+</DET>
+<DET A="DET-51" B="19" C="6" D="Wagon Hitch" E="11" F="1">
+<DOR A="20"/>
+<DOR A="21"/>
+<DOR A="22"/>
+<DOR A="18"/>
+</DET>
+<DET A="DET-55" B="23" C="6" D="Ball connector" E="12" F="1">
+<DOR A="24"/>
+<DOR A="25"/>
+<DOR A="26"/>
+<DOR A="27"/>
+</DET>
+<DET A="DET-59" B="29" C="6" D="Hitch Hook" E="13" F="1">
+<DOR A="31"/>
+<DOR A="32"/>
+<DOR A="33"/>
+<DOR A="34"/>
+</DET>
+<DET A="DET-63" B="35" C="6" D="Piton" E="14" F="1">
+<DOR A="36"/>
+<DOR A="38"/>
+<DOR A="40"/>
+<DOR A="41"/>
+</DET>
+<DET A="DET-67" B="55" C="6" D="DET_Clevis" E="15" F="1">
+<DOR A="56"/>
+<DOR A="57"/>
+<DOR A="60"/>
+<DOR A="61"/>
+</DET>
+<DPD A="6" B="0086" C="2" D="8" E="Front 3_POINT X offset" F="37"/>
+<DPD A="7" B="0087" C="2" D="8" E="Front 3_POINT Y offset" F="37"/>
+<DPD A="8" B="0088" C="2" D="8" E="Front 3_POINT Z offset" F="37"/>
+<DPT A="51" B="009d" C="3" D="Front 3_POINT Connector Type" E="65535"/>
+<DPD A="9" B="0086" C="2" D="8" E="Rear 3_POINT X offset" F="37"/>
+<DPD A="10" B="0087" C="2" D="8" E="Rear 3_POINT Y offset" F="37"/>
+<DPD A="11" B="0088" C="2" D="8" E="Rear 3_POINT Z offset" F="37"/>
+<DPT A="50" B="009d" C="3" D="Rear 3_POINT Connector Type" E="65535"/>
+<DPD A="12" B="0086" C="2" D="8" E="GPS X" F="37"/>
+<DPD A="13" B="0087" C="2" D="8" E="GPS Y" F="37"/>
+<DPD A="14" B="0088" C="2" D="8" E="GPS Z" F="37"/>
+<DPD A="30" B="00b4" C="2" D="8" E="Rear Wheel Radius" F="37"/>
+<DPD A="39" B="e013" C="2" D="8" E="Wheel Base" F="37"/>
+<DPD A="15" B="0086" C="2" D="8" E="Rear Connection X offset" F="37"/>
+<DPD A="16" B="0087" C="2" D="8" E="Rear Connection Y offset" F="37"/>
+<DPD A="17" B="0088" C="2" D="8" E="Rear Connection Z offset" F="37"/>
+<DPT A="52" B="009d" C="1" D="Drawbar Connector Type" E="65535"/>
+<DPD A="53" B="e015" C="2" D="8" E="Turn Radius" F="37"/>
+<DPD A="54" B="e017" C="2" D="8" E="Non steering axle location" F="65535"/>
+<DPD A="58" B="e018" C="2" D="8" E="Turn Sensitivity" F="59"/>
+<DPD A="4" B="0132" C="2" D="8" E="Articulation Point" F="37"/>
+<DPD A="20" B="0086" C="2" D="8" E="Wagon hitch X offset" F="37"/>
+<DPD A="21" B="0087" C="2" D="8" E="Wagon hitch Y offset" F="37"/>
+<DPD A="22" B="0088" C="2" D="8" E="Wagon hitch Z offset" F="37"/>
+<DPT A="18" B="009d" C="7" D="Wagon hitch type" E="65535"/>
+<DPD A="24" B="0086" C="2" D="8" E="Ball X offset" F="37"/>
+<DPD A="25" B="0087" C="2" D="8" E="Ball Y offset" F="37"/>
+<DPD A="26" B="0088" C="2" D="8" E="Ball Z offset" F="37"/>
+<DPT A="27" B="009d" C="8" D="Ball type" E="65535"/>
+<DPD A="31" B="0086" C="2" D="8" E="Hitch Hook X offset" F="37"/>
+<DPD A="32" B="0087" C="2" D="8" E="Hitch Hook Y offset" F="37"/>
+<DPD A="33" B="0088" C="2" D="8" E="Hitch Hook Z offset" F="37"/>
+<DPT A="34" B="009d" C="4" D="Hitch hook type" E="65535"/>
+<DPD A="36" B="0086" C="2" D="8" E="Piton X offset" F="37"/>
+<DPD A="38" B="0087" C="2" D="8" E="Piton Y offset" F="37"/>
+<DPD A="40" B="0088" C="2" D="8" E="Piton Z offset" F="37"/>
+<DPT A="41" B="009d" C="6" D="Piton type" E="65535"/>
+<DPD A="42" B="0077" C="2" D="17" E="Total Effective Time" F="65535"/>
+<DPD A="44" B="e023" C="2" D="8" E="Restore default seetings" F="65535"/>
+<DPD A="45" B="e02d" C="2" D="0" E="DDOP Date Key" F="65535"/>
+<DPD A="46" B="e02e" C="2" D="0" E="Profile Date Key" F="65535"/>
+<DPD A="48" B="e022" C="2" D="8" E="String Transfer Protocol" F="65535"/>
+<DPD A="49" B="008d" C="0" D="8" E="Master Work State" F="65535"/>
+<DPD A="56" B="0086" C="2" D="8" E="Clevis X offset" F="37"/>
+<DPD A="57" B="0087" C="2" D="8" E="Clevis Y offset" F="37"/>
+<DPD A="60" B="0088" C="2" D="8" E="Clevis Z offset" F="37"/>
+<DPT A="61" B="009d" C="5" D="Clevis type" E="65535"/>
+<DVP A="37" B="0" C="1.000000" D="0" E="mm"/>
+<DVP A="59" B="0" C="1.000000" D="0" E="%"/>
+</DVC>
+<CTR A="CTR-106" B="Nicht zugewiesen"/>
+<FRM A="FRM-106" B="Nicht zugewiesen" I="CTR-106"/>
+<PFD A="PFD-106" C="1234" E="CTR-106" F="FRM-106"/>
+<TSK A="TSK-106" B="Streuen" C="CTR-106" D="FRM-106" E="PFD-106" G="2" H="0" I="0">
+<TLG A="TLG00000" C="1"/>
+<TLG A="TLG00001" C="1"/>
+<TLG A="TLG00002" C="1"/>
+<TLG A="TLG00003" C="1"/>
+<TLG A="TLG00004" C="1"/>
+<TLG A="TLG00005" C="1"/>
+</TSK>
+<DVC A="DVC-43" B="AMAZONE ZA-V " C="NW188-F.042" D="a00a80002b800000" E="ZA00025728" F="33000000107b00" G="ff000000006564">
+<DET A="DET-44" B="1" C="1" D="Streuer" E="0" F="0">
+<DOR A="7007"/>
+<DOR A="7012"/>
+<DOR A="7014"/>
+<DOR A="7015"/>
+<DOR A="7084"/>
+<DOR A="7085"/>
+<DOR A="7078"/>
+<DOR A="7051"/>
+<DOR A="7053"/>
+<DOR A="7052"/>
+</DET>
+<DET A="DET-45" B="2000" C="3" D="Behaelter" E="1" F="1000">
+<DOR A="7002"/>
+<DOR A="8004"/>
+<DOR A="8005"/>
+</DET>
+<DPT A="8004" B="008e" C="500" D="Sollwertverzoegerung" E="9007"/>
+<DPT A="8005" B="008f" C="200" D="Istwertverzoegerung" E="9007"/>
+<DET A="DET-46" B="1000" C="2" D="Streufaecher" E="2" F="1">
+<DOR A="7000"/>
+<DOR A="7003"/>
+<DOR A="7004"/>
+<DOR A="7005"/>
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7013"/>
+<DOR A="7014"/>
+<DOR A="7017"/>
+<DOR A="7018"/>
+<DOR A="7054"/>
+<DOR A="7055"/>
+<DOR A="7056"/>
+<DOR A="7061"/>
+<DOR A="7079"/>
+<DOR A="7080"/>
+<DOR A="7081"/>
+<DOR A="7082"/>
+<DOR A="7086"/>
+<DOR A="7089"/>
+<DOR A="7090"/>
+<DOR A="7091"/>
+<DOR A="7097"/>
+<DOR A="7098"/>
+<DOR A="7019"/>
+<DOR A="7027"/>
+<DOR A="7035"/>
+<DOR A="7043"/>
+</DET>
+<DET A="DET-160" B="1001" C="2" D="Streufaecher links" E="21" F="1000">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7014"/>
+<DOR A="7057"/>
+<DOR A="7059"/>
+<DOR A="7062"/>
+<DOR A="7063"/>
+<DOR A="7066"/>
+<DOR A="7067"/>
+<DOR A="7070"/>
+<DOR A="7087"/>
+<DOR A="7095"/>
+<DOR A="7073"/>
+</DET>
+<DET A="DET-48" B="1002" C="2" D="Streufaecher rechts" E="22" F="1000">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7014"/>
+<DOR A="7058"/>
+<DOR A="7060"/>
+<DOR A="7064"/>
+<DOR A="7065"/>
+<DOR A="7068"/>
+<DOR A="7069"/>
+<DOR A="7071"/>
+<DOR A="7088"/>
+<DOR A="7096"/>
+<DOR A="7074"/>
+</DET>
+<DET A="DET-49" B="3000" C="4" D="Teilbreite_1" E="100" F="1001">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-50" B="3001" C="4" D="Teilbreite_2" E="101" F="1001">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-185" B="3002" C="4" D="Teilbreite_3" E="102" F="1001">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-52" B="3003" C="4" D="Teilbreite_4" E="103" F="1001">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-53" B="3004" C="4" D="Teilbreite_5" E="104" F="1001">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-54" B="3005" C="4" D="Teilbreite_6" E="105" F="1001">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-201" B="3006" C="4" D="Teilbreite_7" E="106" F="1001">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-56" B="3007" C="4" D="Teilbreite_8" E="107" F="1001">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-57" B="3500" C="4" D="Teilbreite_1" E="500" F="1002">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-58" B="3501" C="4" D="Teilbreite_2" E="501" F="1002">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-217" B="3502" C="4" D="Teilbreite_3" E="502" F="1002">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-60" B="3503" C="4" D="Teilbreite_4" E="503" F="1002">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-61" B="3504" C="4" D="Teilbreite_5" E="504" F="1002">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-62" B="3505" C="4" D="Teilbreite_6" E="505" F="1002">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-233" B="3506" C="4" D="Teilbreite_7" E="506" F="1002">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-64" B="3507" C="4" D="Teilbreite_8" E="507" F="1002">
+<DOR A="7009"/>
+<DOR A="7010"/>
+<DOR A="7011"/>
+<DOR A="7016"/>
+</DET>
+<DET A="DET-65" B="5000" C="6" D="Kupplungspunkt" E="3" F="1">
+<DOR A="7009"/>
+<DOR A="8001"/>
+<DOR A="8002"/>
+<DOR A="8003"/>
+</DET>
+<DPT A="8001" B="0087" C="0" D="Y Offset Kupplungspunkt " E="9004"/>
+<DPT A="8002" B="0088" C="0" D="Z Offset Kupplungspunkt " E="9004"/>
+<DPT A="8003" B="009d" C="3" D="Anhaengung" E="65535"/>
+<DET A="DET-66" B="1003" C="2" D="Waage" E="5" F="2000">
+<DOR A="7008"/>
+</DET>
+<DPD A="7000" B="0074" C="3" D="17" E="bearbeitete Flaeche" F="9002"/>
+<DPD A="7002" B="004b" C="1" D="5" E="aktueller Behaelterinhalt" F="9006"/>
+<DPD A="7003" B="0007" C="1" D="11" E="Istwert Ausbringmenge" F="9003"/>
+<DPD A="7004" B="0006" C="3" D="0" E="Sollwert Ausbringmenge" F="9003"/>
+<DPD A="7005" B="00a0" C="2" D="9" E="SectionControlState" F="65535"/>
+<DPD A="7007" B="dfff" C="0" D="31" E="DefaultLogging" F="65535"/>
+<DPD A="7008" B="0051" C="3" D="17" E="gewogene Menge" F="9001"/>
+<DPD A="7009" B="0086" C="0" D="8" E="X Offset" F="9004"/>
+<DPD A="7010" B="0087" C="0" D="8" E="Y Offset" F="9004"/>
+<DPD A="7011" B="0043" C="0" D="8" E="Arbeitsbreite" F="9004"/>
+<DPD A="7012" B="0077" C="3" D="17" E="Zeit in Arbeitsstellung" F="9005"/>
+<DPD A="7013" B="009e" C="2" D="8" E="Prescription Control State" F="65535"/>
+<DPD A="7014" B="008d" C="1" D="9" E="Arbeitsstellung" F="65535"/>
+<DPD A="7015" B="0075" C="3" D="19" E="Strecke in Arbeitsstellung" F="9000"/>
+<DPD A="7016" B="00e2" C="0" D="8" E="Actual Working Length" F="9004"/>
+<DPD A="7017" B="00cd" C="2" D="9" E="SC Turn On Time" F="9007"/>
+<DPD A="7018" B="00ce" C="2" D="9" E="SC Turn Off Time" F="9007"/>
+<DPD A="7019" B="00a1" C="0" D="9" E="Condensed Work state 01 - 16" F="65535"/>
+<DPD A="7027" B="0122" C="2" D="0" E="Setpoint Condensed WS 01 - 16" F="65535"/>
+<DPD A="7035" B="e00d" C="2" D="0" E="SP Cond. Infield State 01 - 16" F="65535"/>
+<DPD A="7043" B="016f" C="0" D="9" E="Section Override State 1-16" F="65535"/>
+<DPD A="7051" B="00c0" C="1" D="9" E="Umgebungstemperatur" F="9008"/>
+<DPD A="7052" B="00cf" C="1" D="9" E="Windgeschwindigkeit" F="9009"/>
+<DPD A="7053" B="00d0" C="1" D="9" E="Windrichtung" F="9010"/>
+<DPD A="7054" B="0109" C="2" D="0" E="Restflaeche" F="9002"/>
+<DPD A="7055" B="0134" C="1" D="0" E="Istwert Ausbringm. in Prozent" F="9011"/>
+<DPD A="7056" B="008c" C="2" D="0" E="Sollwert Ausbringm. in Prozent" F="9011"/>
+<DPD A="7057" B="0186" C="1" D="1" E="Istwert Drehzahl links" F="9012"/>
+<DPD A="7058" B="0186" C="1" D="1" E="Istwert Drehzahl rechts" F="9012"/>
+<DPD A="7059" B="0185" C="0" D="8" E="Sollwert Drehzahl links" F="9012"/>
+<DPD A="7060" B="0185" C="0" D="8" E="Sollwert Drehzahl rechts" F="9012"/>
+<DPD A="7061" B="0046" C="0" D="9" E="Maximale Arbeitsbreite" F="9004"/>
+<DPD A="7062" B="0007" C="1" D="11" E="Istwert Ausbringmenge links" F="9003"/>
+<DPD A="7063" B="0006" C="2" D="0" E="Sollwert Ausbringmenge links" F="9003"/>
+<DPD A="7064" B="0007" C="1" D="11" E="Istwert Ausbringmenge rechts" F="9003"/>
+<DPD A="7065" B="0006" C="2" D="0" E="Sollwert Ausbringmenge rechts" F="9003"/>
+<DPD A="7066" B="0134" C="1" D="0" E="Istwert in Prozent links" F="9011"/>
+<DPD A="7067" B="008c" C="2" D="0" E="Sollwert in Prozent links" F="9011"/>
+<DPD A="7068" B="0134" C="1" D="0" E="Istwert in Prozent rechts" F="9011"/>
+<DPD A="7069" B="008c" C="2" D="0" E="Sollwert in Prozent rechts" F="9011"/>
+<DPD A="7070" B="0043" C="1" D="8" E="Arbeitsbreite links" F="9004"/>
+<DPD A="7071" B="0043" C="1" D="8" E="Arbeitsbreite rechts" F="9004"/>
+<DPD A="7073" B="0074" C="2" D="17" E="bearbeitete Flaeche links" F="9002"/>
+<DPD A="7074" B="0074" C="2" D="17" E="bearbeitete Flaeche rechts" F="9002"/>
+<DPD A="7078" B="00d7" C="1" D="17" E="Betriebsstunden" F="9014"/>
+<DPD A="7079" B="010f" C="1" D="17" E="Gesamtarbeitsfläche" F="9002"/>
+<DPD A="7080" B="010a" C="1" D="17" E="Menge gesamt" F="9001"/>
+<DPD A="7081" B="0110" C="1" D="19" E="Gesamtstrecke Streuscheibe An" F="9016"/>
+<DPD A="7082" B="0111" C="1" D="19" E="Gesamtstrecke Streuscheibe Aus" F="9016"/>
+<DPD A="7084" B="018d" C="1" D="9" E="Aktuelle Geschwindigkeit" F="9013"/>
+<DPD A="7085" B="0190" C="1" D="9" E="Geschwindigkeitsquelle" F="65535"/>
+<DPD A="7086" B="e290" C="1" D="9" E="Kalibrierfaktor" F="65535"/>
+<DPD A="7087" B="e291" C="1" D="9" E="Schieberposition links" F="9011"/>
+<DPD A="7088" B="e291" C="1" D="9" E="Schieberposition rechts" F="9011"/>
+<DPD A="7089" B="e292" C="1" D="9" E="Streuverfahren links" F="65535"/>
+<DPD A="7090" B="e293" C="3" D="9" E="Streuverfahren rechts" F="65535"/>
+<DPD A="7091" B="e294" C="1" D="9" E="Einleitsystemposition links" F="65535"/>
+<DPD A="7095" B="e295" C="1" D="9" E="Wurfweite links" F="65535"/>
+<DPD A="7096" B="e295" C="1" D="9" E="Wurfweite rechts" F="65535"/>
+<DPD A="7097" B="fe20" C="0" D="9" F="65535"/>
+<DPD A="7098" B="fe21" C="2" D="9" F="65535"/>
+<DVP A="9000" B="0" C="0.000001" D="2" E="km"/>
+<DVP A="9001" B="0" C="1.000000" D="0" E="kg"/>
+<DVP A="9002" B="0" C="0.000100" D="2" E="ha"/>
+<DVP A="9003" B="0" C="0.010000" D="0" E="kg/ha"/>
+<DVP A="9004" B="0" C="0.001000" D="2" E="m"/>
+<DVP A="9005" B="0" C="0.000278" D="1" E="h"/>
+<DVP A="9006" B="0" C="0.001000" D="0" E="kg"/>
+<DVP A="9007" B="0" C="1.000000" D="0" E="ms"/>
+<DVP A="9008" B="-273150" C="0.001000" D="1" E="°C"/>
+<DVP A="9009" B="0" C="0.001000" D="1" E="m/s"/>
+<DVP A="9010" B="0" C="1.000000" D="0" E="°"/>
+<DVP A="9011" B="0" C="0.000100" D="0" E="%"/>
+<DVP A="9012" B="0" C="0.000100" D="0" E="min-1"/>
+<DVP A="9013" B="0" C="0.003600" D="1" E="km/h"/>
+<DVP A="9014" B="0" C="0.050000" D="1" E="h"/>
+<DVP A="9015" B="0" C="0.001000" D="2" E="°"/>
+<DVP A="9016" B="0" C="0.001000" D="2" E="km"/>
+</DVC>
+</ISO11783_TaskData>
